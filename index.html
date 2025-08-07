@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reminix helps families of Alzheimer’s patients stay connected through personalized, AI-generated content.">
+    <meta name="keywords" content="Reminix, Alzheimer’s, AI-generated content, family, memories">
+    <title>Reminix</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #4A90E2;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .section-padding {
+            padding: 60px 0;
+        }
+        .app-showcase img {
+            width: 100%;
+            height: auto;
+        }
+        .app-showcase .col-md-3 {
+            padding: 15px;
+        }
+        .feature-card {
+            color: #fff;
+        }
+        .feature-card:nth-child(1) {
+            background-color: #FF6F61;
+        }
+        .feature-card:nth-child(2) {
+            background-color: #6B5B95;
+        }
+        .feature-card:nth-child(3) {
+            background-color: #88B04B;
+        }
+        .team-card {
+            background-color: #F7CAC9;
+            color: #333;
+        }
+        footer {
+            background-color: #4A90E2;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="images/Reminix.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Reminix
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#app-showcase">App Showcase</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Slider Section -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" style="height: 60vh;">
+            <div class="carousel-item active">
+                <img src="images/background.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>AI-generated Memory Content</h5>
+                    <p>Transform family prompts into cherished memories.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/background.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Visual, Written, and Musical Outputs</h5>
+                    <p>Engage with memories through multiple formats.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/background.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Safe and Private</h5>
+                    <p>Reconnect through memories in a secure environment.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding" style="background-color: #E6E6FA;">
+        <div class="container">
+            <h2 class="text-center">App Description</h2>
+            <p>Reminix is a revolutionary app designed to help families of Alzheimer’s patients stay connected through personalized, AI-generated content. By turning memories, photos, and answers to simple questions into heartfelt stories, images, and music, Reminix aims to spark recognition and joy. The app provides a safe, private, and emotionally meaningful way to reconnect through memories, offering visual, written, and musical outputs that can be easily shared with loved ones. With Reminix, families can create a lasting bond and cherish the moments that matter most.</p>
+        </div>
+    </section>
+
+    <!-- App Showcase Section -->
+    <section id="app-showcase" class="section-padding">
+        <div class="container">
+            <h2 class="text-center">App Showcase</h2>
+            <div class="row">
+                <div class="col-md-3 app-showcase">
+                    <img src="images/app_images/Reminix1.jpg" alt="App Screenshot 1">
+                </div>
+                <div class="col-md-3 app-showcase">
+                    <img src="images/app_images/Reminix2.jpg" alt="App Screenshot 2">
+                </div>
+                <div class="col-md-3 app-showcase">
+                    <img src="images/app_images/Reminix3.jpg" alt="App Screenshot 3">
+                </div>
+                <div class="col-md-3 app-showcase">
+                    <img src="images/app_images/Reminix4.jpg" alt="App Screenshot 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Links Section -->
+    <section id="download" class="section-padding" style="background-color: #F0F8FF;">
+        <div class="container">
+            <h2 class="text-center">Download Links</h2>
+            <div class="text-center">
+                <a href="https://apps.apple.com/us/app/reminix/id6748774668">
+                    <img src="images/app_logo/App_Store_logo.png" alt="App Store" width="150">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section-padding">
+        <div class="container">
+            <h2 class="text-center">Key Features</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card feature-card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-brain"></i>
+                            <h5 class="card-title">AI-generated Memory Content</h5>
+                            <p class="card-text">Transform family prompts into cherished memories.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-music-note"></i>
+                            <h5 class="card-title">Visual, Written, and Musical Outputs</h5>
+                            <p class="card-text">Engage with memories through multiple formats.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card text-center">
+                        <div class="card-body">
+                            <i class="bi bi-shield-lock"></i>
+                            <h5 class="card-title">Safe and Private</h5>
+                            <p class="card-text">Reconnect through memories in a secure environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section-padding" style="background-color: #FFF0F5;">
+        <div class="container">
+            <h2 class="text-center">Our Team</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card team-card text-center">
+                        <img src="images/person1.png" class="card-img-top" alt="Person 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Congqing (Alex) Yang</h5>
+                            <p class="card-text">App Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> Reminix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
